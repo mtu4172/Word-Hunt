@@ -29,7 +29,7 @@ struct Trie {
         }
         node->end = true;
     }
-    bool search(const string& word) {
+    bool search(const string& word, bool& complete) {
         Node* node = head;
         for (char i : word) {
             int ind = i - 65;
@@ -37,6 +37,7 @@ struct Trie {
                 return false;
             node = node->children[ind];
         }
+        complete = node->end;
         return true;
     }
 };
