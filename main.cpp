@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
-#include <set>
+#include <conio.h>
 #include "Trie.h"
 
 using namespace std;
@@ -80,5 +80,7 @@ int main() {
     });
     for (auto iter : words)
         cout << iter << endl;
+    cout << "Press ENTER to exit...";
+    char ch = getch();
     return 0;
 }
