@@ -1,5 +1,5 @@
 # WordHunt Solver
-Solver for GamePigeon WordHunt, now in C++!
+Solver for GamePigeon WordHunt
 
 # How To Use
   1. Download [this](https://github.com/mtu4172/Word-Hunt/archive/refs/heads/main.zip) repository
@@ -11,5 +11,3 @@ Solver for GamePigeon WordHunt, now in C++!
      
      Corresponds to this input: `OAWTORPYHDDEIIUN` (not case sensitive)
   4. Enter solutions into WordHunt
-  5. Win!
-
